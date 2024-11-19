@@ -63,7 +63,7 @@ if submit_button:
             paragraph_result = ", ".join(interests)
             st.markdown("### 🔽 Hasil Rekomendasi:")
             st.write(
-                f"<div style='padding: 15px; background-color: #f9f9f9; border-radius: 8px; border: 1px solid #e0e0e0; font-size: 16px;'>"
+                f"<div style='padding: 15px; background-color: #f9f9f9; border-radius: 8px; border: 1px solid #e0e0e0; font-size: 16px; color: #000;'>"
                 f"{paragraph_result}</div>",
                 unsafe_allow_html=True,
             )
